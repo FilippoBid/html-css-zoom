@@ -15,7 +15,7 @@ div[class$="footer"],div[class$="nav"]{height: 7%;
                                        padding: 0.3rem;
                                        flex-shrink: 0;}
                            
-main .bar-profiles{height: 86%;background-color: aqua;flex-grow: 1;}
+main .bar-profiles{width: 90%;margin: auto;overflow: auto;background-color: aqua;flex-grow: 1;}
 
 
 .top-button button{position: relative; background-color:grey;border: 0;padding: 0.1rem;border-radius: 10%;}
@@ -28,3 +28,7 @@ main .bar-profiles{height: 86%;background-color: aqua;flex-grow: 1;}
 
 button{color: white;}
 footer button{border: none;background-color:transparent;padding: 5px;}
+.bar-profiles{width: 90%;margin: auto;overflow: auto;}
+.profile-container{border: 4px solid transparent;width: calc((100%-8px)/7;height: calc((100%-8px)/5);}
+.profile-container img{object-fit: cover;position: relative;}
+.namestatus{display: flex}
