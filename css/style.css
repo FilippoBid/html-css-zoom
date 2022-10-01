@@ -12,11 +12,19 @@
 div[class^="bar"]{display: flex;}  
 
 div[class$="footer"],div[class$="nav"]{height: 7%;
-                                       padding: 2rem;
+                                       padding: 0.3rem;
                                        flex-shrink: 0;}
                            
 main .bar-profiles{height: 86%;background-color: aqua;flex-grow: 1;}
 
 
 .top-button button{position: relative; background-color:grey;border: 0;padding: 0.1rem;border-radius: 10%;}
+
 .top-button{position: absolute;top: 0.5rem;right: 0.5rem;}
+
+.bar-footer{justify-content: space-between;align-items: center;}
+.bar-footer .middle-footer-button{flex-grow: 1;text-align: center;}
+.bar-footer .right-footer-button{height: 100%;background-color: coral;padding: 0.7rem;}
+
+button{color: white;}
+footer button{border: none;background-color:transparent;padding: 5px;}
