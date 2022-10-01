@@ -1,3 +1,22 @@
 *{box-sizing: border-box;
-padding: 0;
-margin: 0;}
+                padding: 0;
+                margin: 0;}
+
+
+
+
+.containermain{height: 100vh;
+               width: 100vw;
+                background-color: black;}
+
+div[class^="bar"]{display: flex;}  
+
+div[class$="footer"],div[class$="nav"]{height: 7%;
+                                       padding: 2rem;
+                                       flex-shrink: 0;}
+                           
+main .bar-profiles{height: 86%;background-color: aqua;flex-grow: 1;}
+
+
+.top-button button{position: relative; background-color:grey;border: 0;padding: 0.1rem;border-radius: 10%;}
+.top-button{position: absolute;top: 0.5rem;right: 0.5rem;}
