@@ -29,6 +29,5 @@ main .bar-profiles{width: 90%;margin: auto;overflow: auto;background-color: aqua
 button{color: white;}
 footer button{border: none;background-color:transparent;padding: 5px;}
 .bar-profiles{width: 90%;margin: auto;overflow: auto;}
-.profile-container{border: 4px solid transparent;width: calc((100%-8px)/7;height: calc((100%-8px)/5);}
-.profile-container img{object-fit: cover;position: relative;}
-.namestatus{display: flex}
+.profile-container{position: relative; border: 4px solid red;width: calc((100%-8px)/7;height: calc((100%-8px)/5);object-fit: cover;}
+
