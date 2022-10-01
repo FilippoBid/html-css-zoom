@@ -2,32 +2,45 @@
                 padding: 0;
                 margin: 0;}
 
+button{color: white;}
 
 
 
 .containermain{height: 100vh;
                width: 100vw;
-                background-color: black;}
+                background-color: black;
+                display: flex;
+                flex-direction: column;
+                }
 
 div[class^="bar"]{display: flex;}  
 
-div[class$="footer"],div[class$="nav"]{height: 7%;
-                                       padding: 0.3rem;
-                                       flex-shrink: 0;}
-                           
-main .bar-profiles{width: 90%;margin: auto;overflow: auto;background-color: aqua;flex-grow: 1;}
+footer,nav{min-height: 5%;max-height: 5%;
+            flex-shrink: 0;display: flex;
+        
+            overflow: auto;}
+
+main{flex-grow: 1;}               
+
+
+.profile-container img{width: 100%;height: 100%;object-fit: cover;display: block;}
+                          
+.name-status{position: absolute;left: 0;bottom: 0;padding: 2px;background-color: rgba(79, 80, 80, 0.521);}
+
+.bar-profiles{height: 100%; width: 90%;margin: auto;overflow: auto;background-color: rgba(0, 0, 0, 0.911);flex-grow: 1;flex-wrap: wrap;}
 
 
 .top-button button{position: relative; background-color:grey;border: 0;padding: 0.1rem;border-radius: 10%;}
 
 .top-button{position: absolute;top: 0.5rem;right: 0.5rem;}
 
-.bar-footer{justify-content: space-between;align-items: center;}
+.bar-footer{justify-content: space-between;align-items: center;width: 100%;}
 .bar-footer .middle-footer-button{flex-grow: 1;text-align: center;}
 .bar-footer .right-footer-button{height: 100%;background-color: coral;padding: 0.7rem;}
 
-button{color: white;}
+
 footer button{border: none;background-color:transparent;padding: 5px;}
-.bar-profiles{width: 90%;margin: auto;overflow: auto;}
-.profile-container{position: relative; border: 4px solid red;width: calc((100%-8px)/7;height: calc((100%-8px)/5);object-fit: cover;}
+.profile-container{position: relative; border: 4px solid transparent;height:calc((100% - 8px) / 5); width:calc((100% - 8px) / 7) ;}
+
+
 
