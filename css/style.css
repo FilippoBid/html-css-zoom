@@ -15,12 +15,13 @@ button{color: white;}
 
 div[class^="bar"]{display: flex;}  
 
-footer,nav{min-height: 5%;max-height: 5%;
+footer,nav{min-height: 6%;max-height: 7%;
             flex-shrink: 0;display: flex;
         
             overflow: auto;}
 
-main{flex-grow: 1;}               
+main{flex-grow: 1;} 
+footer{background-color: #222222;}              
 
 
 .profile-container img{width: 100%;height: 100%;object-fit: cover;display: block;}
@@ -36,11 +37,12 @@ main{flex-grow: 1;}
 
 .bar-footer{justify-content: space-between;align-items: center;width: 100%;}
 .bar-footer .middle-footer-button{flex-grow: 1;text-align: center;}
-.bar-footer .right-footer-button{height: 100%;background-color: coral;padding: 0.7rem;}
+.bar-footer .right-footer-button{height: 100%;color: red; background-color: #4a4a4a;padding: 0.7rem;}
 
 
 footer button{border: none;background-color:transparent;padding: 5px;}
 .profile-container{position: relative; border: 4px solid transparent;height:calc((100% - 8px) / 5); width:calc((100% - 8px) / 7) ;}
+.profile-container div {max-height: 20%;}
 
 
 
